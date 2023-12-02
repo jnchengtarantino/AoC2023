@@ -5,8 +5,8 @@ from itertools import accumulate
 from math import lcm
 import re
 
-file = open("testinput.txt")
-# file = open("dayXinput.txt")
+# file = open("in.txt")
+file = open("test.txt")
 
 lines = file.readlines()
 for line in lines:
