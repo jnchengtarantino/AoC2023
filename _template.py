@@ -5,11 +5,17 @@ from itertools import accumulate
 from math import lcm
 import re
 
-# file = open("in.txt")
-file = open("test.txt")
+def part1(lines):
+    for line in lines:
+        pass
 
-lines = file.readlines()
-for line in lines:
+def part2(lines):
     pass
-        
-file.close()
+    
+if __name__ == "__main__":
+    # file = open("in.txt")
+    file = open("test.txt") 
+    lines = file.readlines() 
+    print(part1(lines))      
+    print(part2(lines))
+    file.close()
