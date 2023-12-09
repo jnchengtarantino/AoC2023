@@ -6,12 +6,14 @@ from math import lcm
 import re
 
 def part1(lines):
-    for line in lines:
-        pass
+    pass
 
 def part2(lines):
     pass
     
+def parseInput(lines):
+    pass
+
 if __name__ == "__main__":
     # file = open("in.txt")
     file = open("test.txt") 
